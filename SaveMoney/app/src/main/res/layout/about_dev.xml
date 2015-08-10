@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="391dp"
+        android:layout_above="@+id/textView"
+        android:id="@+id/imageView"
+        />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="262dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView"
+        android:layout_gravity="bottom"
+        android:layout_above="@+id/imageViews"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About dev"
+        android:id="@+id/devLabel"
+        />
+
+</LinearLayout>

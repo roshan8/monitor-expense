@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyNavigationDrawerTheme" parent="MaterialNavigationDrawerTheme.TranslucentKitKatStatusBar">
+
+        <item name="colorPrimary">#8bc34a</item>                 <!--#8bc34a-->
+        <item name="colorPrimaryDark">#8bc34a</item>            <!--#558b2f-->
+        <item name="colorAccent">#000000</item>             <!--FFFFFF-->
+
+        <item name="drawerType">@integer/DRAWERTYPE_IMAGE</item>
+        <item name="rippleBackport">true</item>
+        <item name="toolbarElevation">true</item>
+
+
+
+
+        <!-- Other customization  -->
+        <!--<item name="drawerColor">#000</item>     &lt;!&ndash;//this will change the left side drawer color&ndash;&gt;
+        <item name="sectionColorText">#000</item>
+        -->
+
+<!--
+        <item name="sectionStyle">@style/MySectionTheme</item>            // facebook blue  #3b5998
+        <item name="subheaderStyle">@style/MySubheaderTheme</item>
+        &ndash;&gt;
+-->
+
+        <!-- remove below customization to switch to default -->
+        <!--<item name="drawerColor">#ffff</item>
+        <item name="sectionColorText">#000</item>
+        <item name="sectionColorIcon">#fff</item>
+
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#558b2f</item>
+        <item name="colorAccent">#0000</item>-->
+
+    </style>
+
+    <style name="MySubheaderTheme">
+        <item name="subheaderTitleColor">#00F</item>
+    </style>
+
+    <style name="MySectionTheme" >
+        <item name="sectionColorIcon">#fff</item>
+        <item name="sectionColorText">#000</item>
+        <item name="sectionColorNotification">#00F</item>
+        <item name="sectionBackgroundColorPressed">#0FF</item>
+        <item name="sectionBackgroundColorSelected">#fff</item>
+        <item name="sectionBackgroundColor">#fff</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:colorBackground">#fff</item>
+
+
+    </style>
+
+</resources>

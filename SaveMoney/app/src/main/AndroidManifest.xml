@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="roshan_shetty.edugap" >
+
+    <!-- some required permissions for GCM -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <!-- for the security of GCM messages -->
+    <permission
+        android:name="roshan_shetty.edugap.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="roshan_shetty.edugap.permission.C2D_MESSAGE" />
+
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/MyNavigationDrawerTheme"
+        android:label="@string/app_name"
+         >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name=".LoginScreens.FlashScreen"
+            android:theme="@style/splashScreenTheme"
+            android:screenOrientation="portrait">
+            android:label="Flash screen" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".LoginScreens.RegisterScreen"
+            android:screenOrientation="portrait">
+            android:label="Login screen" >
+<!--
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+-->
+
+        </activity>
+
+        <activity android:name=".LoginScreens.LoginActivity"> </activity>
+
+    </application>
+
+</manifest>

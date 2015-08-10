@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/newimg6">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:text="Hey \nCheck out this app Track Me.. \nIt will be in playstore soon !!"
+        android:textColor="#606060"
+        android:id="@+id/msgText"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share via whatsapp"
+        android:id="@+id/buttonShare"
+        android:layout_below="@+id/editText"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="9.82" />
+
+</LinearLayout>

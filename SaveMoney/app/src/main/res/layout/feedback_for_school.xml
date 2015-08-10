@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:id="@+id/scrollID">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newimg6"
+        android:orientation="vertical"
+        android:id="@+id/verticalLayout"
+        android:weightSum="1">
+
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/userSpace"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/msgText"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:gravity="start"
+            android:background="@drawable/editext"
+            android:layout_above="@+id/checkbox"
+            android:hint="Please provide your valuable feedback about Staff/Management"
+            android:ellipsize="end"
+            android:textColorHint="@color/accent_material_dark"
+            />-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/userSpace"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/msgText"
+            android:layout_above="@+id/relativeID"
+
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:gravity="start"
+            android:background="@drawable/editext"
+            android:hint="Please provide your valuable feedback about Staff/Management"
+            android:ellipsize="start"
+            android:textColorHint="@color/accent_material_dark"
+            android:focusableInTouchMode="true"
+            />
+
+        <CheckBox
+            android:layout_marginLeft="15dp"
+            android:id="@id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearHorizondalLayout"
+            android:text="stay anonymous"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:enabled="true" />
+
+        <requestFocus/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearHorizondalLayout" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="send"
+                android:id="@+id/buttonSend"
+                android:layout_marginLeft="55dp"
+                android:background="@drawable/editextforlogin"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                android:id="@+id/clear"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/editextforlogin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

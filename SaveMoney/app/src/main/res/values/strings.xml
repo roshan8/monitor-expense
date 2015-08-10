@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Track me</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="list">
+        <item>Mrs Lakhshmi P \n8884025591 </item>
+        <item>Mrs Hema P  \n9259253511 </item>
+        <item>Mrs Sandhya \n9945427204</item>
+        <item>Mrs Vanishree  \n9538801269 </item>
+        <item>Mrs Vijayakumari \n8904550694 </item>
+        <item>Mrs Hemmala P \n9964414543 </item>
+        <item>Mrs Manjula S \n7411103712</item>
+        <item>Mrs Uma Kannan  \n9739859479 </item>
+        <item>Mrs Sridevi  \n9844869369 </item>
+        <item>Mrs Gowramma \n8088054925 </item>
+        <item>Mr Srinivas M.R  \n9731968971 </item>
+        <item>Mr Eshwarappa \n9972251760 </item>
+        <item>Mrs Raju \n9964619594 </item>
+        <item>Mrs Asha  \n8931371337 </item>
+        <item>Mrs Shantala Bhat  \n8762411722 </item>
+        <item>Mrs Gayatri H.V  \n9740044833 </item>
+        <item>Mrs Chandrakala  \n9483894043 </item>
+        <item>Mrs Geeta Bharathi  \n8867434541 </item>
+
+
+
+
+        <item>Mrs Lakhshmi P \n8884025591 </item>
+        <item>Mrs Hema P  \n9259253511 </item>
+        <item>Mrs Sandhya \n9945427204</item>
+        <item>Mrs Vanishree  \n9538801269 </item>
+        <item>Mrs Vijayakumari \n8904550694 </item>
+        <item>Mrs Hemmala P \n9964414543 </item>
+        <item>Mrs Manjula S \n7411103712</item>
+        <item>Mrs Uma Kannan  \n9739859479 </item>
+        <item>Mrs Sridevi  \n9844869369 </item>
+        <item>Mrs Gowramma \n8088054925 </item>
+        <item>Mr Srinivas M.R  \n9731968971 </item>
+        <item>Mr Eshwarappa \n9972251760 </item>
+        <item>Mrs Raju \n9964619594 </item>
+        <item>Mrs Asha  \n8931371337 </item>
+        <item>Mrs Shantala Bhat  \n8762411722 </item>
+        <item>Mrs Gayatri H.V  \n9740044833 </item>
+        <item>Mrs Chandrakala  \n9483894043 </item>
+        <item>Mrs Geeta Bharathi  \n8867434541 </item>
+
+    </string-array>
+
+</resources>

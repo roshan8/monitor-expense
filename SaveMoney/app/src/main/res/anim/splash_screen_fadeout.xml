@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	-zAdjustment makes sure the activity is on top
+	-interpolator defines the rate of change of an animation
+	-we use decelerate_interpolator to reduce animation speed from visible (Alpha 1.0) to invisible (Alpha 0.0)
+-->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:fromAlpha="1.0"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:toAlpha="0.0"
+    android:zAdjustment="top" />

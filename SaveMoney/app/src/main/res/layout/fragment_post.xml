@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:id="@+id/scrollID">
+
+<!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+-->
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newimg6"
+    android:orientation="vertical"
+    android:id="@+id/verticalLayout"
+    android:weightSum="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/cur_savings"
+            android:layout_above="@+id/postBy"
+            android:textColor="@color/accent_material_dark"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:gravity="start"
+            android:background="@drawable/editext"
+            android:ellipsize="start"
+            android:enabled="false"
+            android:textAlignment="center"
+            android:text="Current Balance is : 0 Rs"
+            android:textColorHint="@color/accent_material_dark"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/postTitle"
+            android:layout_above="@+id/postBy"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:gravity="start"
+            android:background="@drawable/editext"
+
+            android:hint="Please Enter your expense"
+            android:ellipsize="start"
+            android:textColorHint="@color/accent_material_dark"
+            />
+        <!--android:textColorHint="#000000"-->
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/userSpace"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/postContent"
+        android:layout_above="@+id/relativeID"
+
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:gravity="start"
+        android:background="@drawable/editext"
+        android:hint="What did you spent money on"
+        android:ellipsize="start"
+        android:textColorHint="@color/accent_material_dark"
+        android:focusableInTouchMode="true"
+         />
+
+    <requestFocus/>
+
+    <!--    <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+
+            android:textSize="20sp"/>
+-->
+
+
+        <!--android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearHorizondalLayout"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/send"
+                android:layout_marginLeft="55dp"
+                android:background="@drawable/editextforlogin"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                android:id="@+id/clear1"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/editextforlogin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+<!--    </RelativeLayout>-->
+
+</ScrollView>
